@@ -4,6 +4,8 @@ MAINTAINER mihai.csaky@sysop-consulting.ro
 
 # install node-red
 RUN npm install -g node-red
+RUN npm install -g node-red-node-mongodb
+RUN npm install -g node-red-flows-mongo
 
 # expose port
 EXPOSE 1880
