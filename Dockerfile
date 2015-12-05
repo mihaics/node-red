@@ -6,7 +6,7 @@ MAINTAINER mihai.csaky@sysop-consulting.ro
 RUN npm install -g node-red
 RUN npm install -g node-red-node-mongodb
 RUN npm install -g node-red-flows-mongo
-
+RUN npm install -g node-red-contrib-mqtt-env 
 # expose port
 EXPOSE 1880
 
